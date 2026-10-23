@@ -23,9 +23,10 @@ OST 启动时按当前 DLL 哈希从本仓库拉取；拉不到（404）时回�
    `pattern` 分支最后发布 2026-09-06（构建 1788652215），`ipc` 分支最后发布 2026-09-26。
    该段用于旧构建回滚与历史参照，不再更新。
 2. **自产段**：此后 Steam 每次更新由本机工具链重建发布，首批为 2026-10-14 构建
-   （steamclient `e9045710…`、steamui `1b945794…`、ipc `e9045710…`）。
+   （steamclient `e9045710…`、steamui `1b945794…`、ipc `e9045710…`），
+   最新为 2026-10-22 构建（steamclient / ipc `253e0a11…`、steamui `cd9226db…`）。
 
-当前合计 139 份：pattern/steamclient 45、pattern/steamui 45、ipc/steamclient 49。
+当前合计 142 份：pattern/steamclient 46、pattern/steamui 46、ipc/steamclient 50。
 
 ## 以后怎么更新（每次 Steam 更新后）
 
